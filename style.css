@@ -1,33 +1,62 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bitcount+Grid+Double+Ink:wght@100..900&family=Bruno+Ace+SC&family=Honk:MORF@15&family=Iceberg&family=Quantico&family=Silkscreen:wght@400;700&family=Sixtyfour+Convergence&family=Special+Elite&family=Syne+Mono&display=swap');
+ body {
     background-color: rgb(15, 14, 14);
 }
 
-h1{
+#titulo{
+    a {
     position: absolute;
-    left: 50%;
+    left: 45%;
     bottom: 50%;
     animation-name: tituloanimation;
-    animation-duration: 10s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 200%
+ }
 }
 
 @keyframes tituloanimation {
-  0%   {font-family: 'Courier New', Courier, monospace;}
-  25%  {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-  50%  {font-family:                                                                                                                                                                                                                                                        ;}
-  100% {font-family: ;}
+  0%   {font-family: "Iceberg", sans-serif;}
+  10%  {font-family: "Silkscreen", sans-serif;}
+  20%  {font-family: "Bruno Ace SC", sans-serif;}
+  30%  {font-family: "Audiowide", sans-serif;}
+  40%  {font-family: "Quantico", sans-serif;}
+  50%  {font-family: "Bitcount Grid Double Ink", system-ui;}
+  60%  {font-family: "Syne Mono", monospace;}
+  70%  {font-family: "Sixtyfour Convergence", sans-serif;}
+  80%  {font-family: "Special Elite", system-ui;}
+  90%  {font-family: "Honk", system-ui;}
+  100% {font-family: "Bitcount Grid Double Ink", system-ui;}
 }
 
-.audiowide-regular {
-  font-family: "Audiowide", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+p{
+  font-family: "Syne Mono", monospace;
+  color: whitesmoke;
+  font-size: 200%;
 }
 
-div {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: myAnimation;
-  animation-duration: 4s;
+#contenido {
+  display:flex;
+  padding-top: 40vh;
+  flex-direction: column;
+  align-items: center;
 }
+
+.texto {
+  margin-bottom: 90vh;
+}
+
+#opciones{
+  display: flex;
+}
+/*
+a{
+  font-family: "Syne Mono", monospace;
+  color: rgb(255, 40, 40);
+  position:absolute;
+  left: 30%;
+  bottom: 10%;
+  font-size: 100%;
+}*/
