@@ -6,10 +6,10 @@
 #titulo{
     a {
     position: absolute;
-    left: 45%;
+    left: 42%;
     bottom: 50%;
     animation-name: tituloanimation;
-    animation-duration: 7s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     color: whitesmoke;
     text-decoration: none;
@@ -45,18 +45,20 @@ p{
 }
 
 .texto {
-  margin-bottom: 90vh;
+  margin-bottom: 120vh;
 }
 
-#opciones{
+.opciones {
   display: flex;
+  justify-content: center;
+  padding-top: 10vh;
+  padding-bottom: 35vh;
 }
-/*
-a{
+
+h2{
   font-family: "Syne Mono", monospace;
   color: rgb(255, 40, 40);
-  position:absolute;
-  left: 30%;
-  bottom: 10%;
-  font-size: 100%;
-}*/
+  position: relative;
+  font-size: 300%;
+}
+
