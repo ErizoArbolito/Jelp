@@ -50,15 +50,74 @@ p{
 
 .opciones {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  color: rgb(255, 40, 40);
   padding-top: 10vh;
   padding-bottom: 35vh;
 }
 
-h2{
+h2 {
   font-family: "Syne Mono", monospace;
-  color: rgb(255, 40, 40);
   position: relative;
   font-size: 300%;
+  text-decoration: none;
 }
 
+h1 {
+  font-family: "Syne Mono", monospace;
+  color: whitesmoke;
+  font-size: 200%;
+  text-decoration: none;
+}
+
+.gifs {
+  display: flex;
+  justify-content: flex-start;
+  gap: 100px;           
+  position: relative;
+  flex-direction: column;
+  width: 200px;
+  height: auto;
+  border-radius: 100%;
+}
+
+a {
+  font-family: "Syne Mono", monospace;
+  color: whitesmoke;
+  font-size: 100%;
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+}
+
+h3 {
+  font-family: "Syne Mono", monospace;
+  color: whitesmoke;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  width: 0;
+  animation: typing 2s steps(30) forwards, blink 0.75s step-end infinite;
+}
+
+#linea-1 { 
+  animation-delay: 0%; 
+}
+
+#linea-2 { 
+  animation-delay: 50%; 
+}
+
+#linea-3 { 
+  animation-delay: 100%; 
+}
+
+@keyframes typing {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}

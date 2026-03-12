@@ -12,3 +12,10 @@ final2.addEventListener("click", ()=> {
     window.close();
 })
 }
+
+/*  window.history.pushState(null, null, window.location.href);
+  window.onpopstate = function () {
+    window.history.go(1);
+  };*/
+
+  
